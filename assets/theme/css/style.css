@@ -966,3 +966,13 @@ blockquote {
 	left: -2400px;
 }
 
+.mbr-section-head {
+    margin-top: 6vh; 
+  }
+
+  /* Estilo para móviles (menos de 768px de ancho) */
+  @media (max-width: 768px) {
+    .mbr-section-head {
+      margin-top: 3vh !important; /* El !important sobreescribe estilos inline */
+    }
+  }
