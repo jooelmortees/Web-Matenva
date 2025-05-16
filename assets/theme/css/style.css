@@ -976,3 +976,9 @@ blockquote {
       margin-top: 3vh !important; /* El !important sobreescribe estilos inline */
     }
   }
+
+#Descripciones {
+  margin-top: 20px;
+  font-size: 2vh;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
