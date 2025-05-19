@@ -997,3 +997,78 @@ blockquote {
 .cid-uLmdX7T6y7 .mbr-text {
     color: #5c5c5c;
 }
+
+/* Contenedor principal */
+.social4 .container {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 20px;
+}
+
+/* Fila de medios */
+.media-container-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: start;
+}
+
+/* Título */
+.mbr-section-title {
+  font-style: normal;
+  line-height: 1.3;
+}
+.display-2 {
+  font-size: 3.5rem; /* Tamaño específico para display-2 */
+}
+
+/* Alineación */
+.align-center {
+  text-align: center;
+}
+
+/* Margen inferior */
+.mb-5 {
+  margin-bottom: 3rem !important;
+}
+
+/* Lista social */
+.social-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Iconos sociales */
+.iconfont-wrapper {
+  display: inline-flex;
+  border-radius: 50%;
+  transition: all 0.5s;
+  width: 70px;
+  height: 70px;
+}
+.bg-facebook { background-color: #3b5998; }
+.bg-instagram { background-color: #e4405f; }
+.bg-linkedin { background-color: #0077b5; }
+
+/* Iconos */
+.socicon {
+  font-family: 'socicon' !important;
+  font-size: 24px;
+  color: white;
+  margin: auto;
+}
+
+/* Espaciado */
+.m-2 {
+  margin: 0.7rem !important;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+  .display-2 {
+    font-size: 2.5rem;
+  }
+}
