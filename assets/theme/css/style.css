@@ -1050,8 +1050,15 @@ blockquote {
   height: 70px;
 }
 .bg-facebook { background-color: #3b5998; }
-.bg-instagram { background-color: #e4405f; }
+.bg-instagram {
+  background: #f09433; 
+  background: -moz-linear-gradient(45deg, #ffb15e 0%, #e6683c 25%, #ff1e69 50%, #ff00ae 75%, #ea00ff 100%); 
+  background: -webkit-linear-gradient(45deg, #ffb15e 0%,#e6683c 25%,#ff1e69 50%,#ff00ae 75%,#ea00ff 100%); 
+  background: linear-gradient(45deg, #ffb15e 0%, #e6683c 25%, #ff1e69 50%, #ff00ae 75%, #ea00ff 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
 .bg-linkedin { background-color: #0077b5; }
+.bg-youtube { background-color: #ff0000; }
 
 /* Iconos */
 .socicon {
